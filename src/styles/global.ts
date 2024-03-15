@@ -7,6 +7,8 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   html {
     font-size: 62.5%; // 1rem = 10px == 10/16px = 62.5% (1.4rem = 14px)
