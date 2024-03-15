@@ -1,9 +1,9 @@
-const Main = () => {
-  return (
-    <main>
-      <h1>React Avançado</h1>
-    </main>
-  );
-};
+import * as S from './styles';
 
-export default Main;
+export function Main() {
+  return (
+    <S.Wrapper>
+      <h1>React Avançado</h1>
+    </S.Wrapper>
+  );
+}
