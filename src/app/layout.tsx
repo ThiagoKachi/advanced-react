@@ -1,4 +1,4 @@
-import StyledComponentsRegistry from '@/lib/registry';
+import StyledComponentsRegistry from 'lib/registry';
 import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
 import { Providers } from './providers';
