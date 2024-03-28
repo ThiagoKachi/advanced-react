@@ -10,6 +10,7 @@ module.exports = {
     '!src/**/*.stories.tsx',
     '!generators/**',
     '!src/styles/**',
+    '!src/utils/**',
   ],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
   modulePaths: ['<rootDir>/src/'],
