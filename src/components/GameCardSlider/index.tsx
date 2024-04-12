@@ -56,9 +56,7 @@ export function GameCardSlider({
   return (
     <S.Wrapper color={color}>
       <Slider settings={settings}>
-        {items.map((item, index) => (
-          <GameCard key={index} {...item} />
-        ))}
+        {items?.map((item, index) => <GameCard key={index} {...item} />)}
       </Slider>
     </S.Wrapper>
   );

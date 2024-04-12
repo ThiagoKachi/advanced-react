@@ -28,9 +28,7 @@ export function BannerSlider({ items }: BannerSliderProps) {
   return (
     <S.Wrapper>
       <Slider settings={setting}>
-        {items.map((item) => (
-          <Banner key={item.title} {...item} />
-        ))}
+        {items?.map((item) => <Banner key={item.title} {...item} />)}
       </Slider>
     </S.Wrapper>
   );
