@@ -69,7 +69,7 @@ export function Menu({ username }: MenuProps) {
 
         {!username && (
           <S.RegisterBox>
-            <Button fullWidth size="large">
+            <Button fullwidth size="large">
               Log in now
             </Button>
             <span>or</span>
