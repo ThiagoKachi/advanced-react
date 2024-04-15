@@ -11,6 +11,7 @@
     "generate": "npx plop --plopfile generators/plopfile.js",
     "start": "next start",
     "lint": "next lint",
+    "typecheck": "tsc --project tsconfig.json --noEmit",
     "prepare": "husky install",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
@@ -37,7 +38,7 @@
     "@storybook/testing-library": "^0.2.2",
     "@testing-library/jest-dom": "^6.1.2",
     "@testing-library/react": "^14.0.0",
-    "@testing-library/user-event": "^14.4.3",
+    "@testing-library/user-event": "^14.5.2",
     "@types/jest": "^29.5.4",
     "@types/node": "^20",
     "@types/react": "^18",
